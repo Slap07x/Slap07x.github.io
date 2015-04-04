@@ -1,0 +1,414 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	min-height: 100%;
+}
+
+.mainImg {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: fixed;
+}
+
+.mainHeader {
+	height: 100vh;
+	z-index: 0;
+}
+
+.mainHeader h1 {
+	line-height: 700px;
+	text-align: center;
+	font-size: 100px;
+}
+
+.mainNav {
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 4;
+	background-color: rgba(0, 0, 54, .75);
+}
+
+.mainNav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.mainNav ul li {
+	height: 80px;
+	line-height: 80px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.mainNav ul li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+	transition: .5s background-color;
+}
+
+.mainNav ul li a:hover {
+	background-color: rgba(0, 0, 89, .5);
+	text-shadow: 0 0 5px #fff;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+	.mainNav ul li {
+		font-size: 20px;
+	}
+
+	.mainNav ul li a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.mainFooter {
+	background-color: #ccc;
+	color: black;
+	height: 200px;
+}
+
+.mainFooter a {
+	color: black;
+}
+
+.mainFooter a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#mercury {
+	padding-bottom: 20px;
+}
+
+#mercury h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#mercury h2:hover {
+	cursor: pointer;
+}
+
+#mercury p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+}
+
+#mercury img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#venus {
+	margin-bottom: 125px;
+}
+
+#venus h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#venus h2:hover {
+	cursor: pointer;
+}
+
+#venus p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#venus img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#earth {
+	padding-bottom: 15px;
+}
+
+#earth h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#earth h2:hover {
+	cursor: pointer;
+}
+
+#earth p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#earth img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#mars {
+	padding-bottom: 15px;
+}
+
+#mars h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#mars h2:hover {
+	cursor: pointer;
+}
+
+#mars p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#mars img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#jupiter {
+	padding-bottom: 15px;
+}
+
+#jupiter h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#jupiter h2:hover {
+	cursor: pointer;
+}
+
+#jupiter p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#jupiter img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#saturn {
+	padding-bottom: 31px;
+}
+
+#saturn h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#saturn h2:hover {
+	cursor: pointer;
+}
+
+#saturn p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#saturn img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#uranus {
+	padding-bottom: 84px;
+}
+
+#uranus h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#uranus h2:hover {
+	cursor: pointer;
+}
+
+#uranus p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#uranus img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#neptune {
+	padding-bottom: 20px;
+}
+
+#neptune h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#neptune h2:hover {
+	cursor: pointer;
+}
+
+#neptune p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#neptune img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
+
+#pluto {
+	padding-bottom: 20px;
+}
+
+#pluto h2 {
+	background-color: #ccc;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #000;
+}
+
+#pluto h2:hover {
+	cursor: pointer;
+}
+
+#pluto p {
+	text-align: justify;
+	color: #fff;
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#pluto img {
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	right: 20px;
+	margin-top: 25px;
+}
